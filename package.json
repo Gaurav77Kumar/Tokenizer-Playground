@@ -1,0 +1,13 @@
+{
+  "name": "tokenizer-playground",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Learn how LLM tokenization works — FastAPI + tiktoken/transformers backend, Next.js frontend",
+  "scripts": {
+    "setup": "node scripts/setup.mjs",
+    "dev": "node scripts/dev.mjs",
+    "dev:backend": "node scripts/dev.mjs --backend-only",
+    "dev:frontend": "node scripts/dev.mjs --frontend-only",
+    "test": "cd backend && .venv/Scripts/python.exe -m pytest || cd backend && .venv/bin/python -m pytest"
+  }
+}
